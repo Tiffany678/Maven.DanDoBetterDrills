@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author leon on 8/26/18.
  */
-/*
+
 public class TestMultiplication {
 
     private static volatile MathUtilities mathUtils = new MathUtilities();
@@ -80,4 +80,4 @@ public class TestMultiplication {
         // : Then
         assertEquals(expectedDouble, actualDouble, 0);
     }
-}*/
+}
