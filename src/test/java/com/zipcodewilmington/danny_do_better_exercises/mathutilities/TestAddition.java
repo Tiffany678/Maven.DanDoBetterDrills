@@ -33,6 +33,7 @@ public class TestAddition {
         long actual = mathUtils.add(baseValue, difference);
         // : Then
         assertEquals(expected, actual);
+
     }
 
     @Test

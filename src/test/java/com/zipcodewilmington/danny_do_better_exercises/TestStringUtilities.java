@@ -2,6 +2,8 @@ package com.zipcodewilmington.danny_do_better_exercises;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import static com.zipcodewilmington.danny_do_better_exercises.StringUtilities.getHelloWorld;
 import static org.junit.Assert.*;
 
 /**
@@ -14,7 +16,7 @@ public class TestStringUtilities {
         String expected = "Hello World";
 
         // : When
-        String actual = StringUtilities.getHelloWorld();
+        String actual = getHelloWorld();
 
         // : Then
         assertEquals(expected, actual);
